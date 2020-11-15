@@ -1,12 +1,15 @@
+/* Style Background Color */
 body {
     background-color: rosybrown;
 }
 
+/* Style Heading Color */
 .contact {
     text-align: left;
     color: rgb(172, 59, 78);
 }
 
+/* Style Contact Form Colors */
 .btn-primary {
     background-color: rgb(172, 59, 78);
 }
