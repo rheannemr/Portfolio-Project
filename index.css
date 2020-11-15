@@ -1,3 +1,7 @@
-h1 {
-    
+.about {
+    color: rgb(172, 59, 78);
+}
+
+body {
+    background-color: rosybrown;
 }
