@@ -12,3 +12,7 @@ body {
 .navbar-brand, .nav-link, .portfolio {
     font-family: 'Lexend Zetta', sans-serif;
 }
+
+h3, p {
+    font-family: 'Baloo Paaji 2', cursive;
+}

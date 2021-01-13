@@ -16,6 +16,7 @@ body {
 
 .form-group {
     color:  rgb(172, 59, 78);
+    font-family: 'Baloo Paaji 2', cursive;
 }
 
 .navbar-brand, .nav-link, .contact {

@@ -11,6 +11,7 @@ body {
 
 p {
     font-size: large;
+    font-family: 'Baloo Paaji 2', cursive;
 }
 
 .navbar-brand, .nav-link, .about {
