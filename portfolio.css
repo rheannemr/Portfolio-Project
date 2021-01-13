@@ -7,3 +7,7 @@ body {
 .portfolio {
     color: rgb(172, 59, 78);
 }
+
+.navbar-brand, .nav-link {
+    font-family: 'Lexend Zetta', sans-serif;
+}
