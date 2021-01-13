@@ -1,6 +1,7 @@
 /* Style Heading Color */
 .about {
     color: rgb(172, 59, 78);
+    text-align: center;
 }
 
 /* Style Background Color */
@@ -12,6 +13,6 @@ p {
     font-size: large;
 }
 
-.navbar-brand, .nav-link {
+.navbar-brand, .nav-link, .about {
     font-family: 'Lexend Zetta', sans-serif;
 }

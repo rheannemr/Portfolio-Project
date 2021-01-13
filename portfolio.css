@@ -6,8 +6,9 @@ body {
 /* Style Heading Color */
 .portfolio {
     color: rgb(172, 59, 78);
+    text-align: center;
 }
 
-.navbar-brand, .nav-link {
+.navbar-brand, .nav-link, .portfolio {
     font-family: 'Lexend Zetta', sans-serif;
 }
