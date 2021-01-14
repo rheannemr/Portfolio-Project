@@ -17,3 +17,7 @@ p {
 .navbar-brand, .nav-link, .about {
     font-family: 'Lexend Zetta', sans-serif;
 }
+
+.card {
+   background-color: #d3d6db;
+}

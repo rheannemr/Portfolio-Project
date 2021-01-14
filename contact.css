@@ -14,7 +14,7 @@ body {
     background-color: #be3144;
 }
 
-.form-group {
+.form-group, .card-text, .card-link {
     color:  #3a4750;
     font-family: 'Baloo Paaji 2', cursive;
 }
