@@ -1,24 +1,28 @@
 /* Style Background Color */
 body {
-    background-color: rosybrown;
+    background-color: #303841;
 }
 
 /* Style Heading Color */
 .contact {
     text-align: center;
-    color: rgb(172, 59, 78);
+    color: #be3144;
 }
 
 /* Style Contact Form Colors */
 .btn-primary {
-    background-color: rgb(172, 59, 78);
+    background-color: #be3144;
 }
 
 .form-group {
-    color:  rgb(172, 59, 78);
+    color:  #3a4750;
     font-family: 'Baloo Paaji 2', cursive;
 }
 
 .navbar-brand, .nav-link, .contact {
     font-family: 'Lexend Zetta', sans-serif;
+}
+
+.card {
+   background-color: #d3d6db;
 }

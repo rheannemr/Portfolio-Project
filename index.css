@@ -1,12 +1,12 @@
 /* Style Heading Color */
 .about {
-    color: rgb(172, 59, 78);
+    color: #be3144;
     text-align: center;
 }
 
 /* Style Background Color */
 body {
-    background-color: rosybrown;
+    background-color: #303841;
 }
 
 p {

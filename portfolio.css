@@ -1,11 +1,11 @@
 /* Style Background Color */
 body {
-    background-color: rosybrown;
+    background-color: #303841;
 }
 
 /* Style Heading Color */
 .portfolio {
-    color: rgb(172, 59, 78);
+    color: #be3144;
     text-align: center;
 }
 
@@ -15,10 +15,10 @@ body {
 
 h3, p, .card-body {
     font-family: 'Baloo Paaji 2', cursive;
-    color: #ffdbc5;
+    color: #3a4750;
     text-align: center;
 }
 
 .card {
-    background-color: gray;
+    background-color: #d3d6db;
 }
