@@ -13,6 +13,12 @@ body {
     font-family: 'Lexend Zetta', sans-serif;
 }
 
-h3, p {
+h3, p, .card-body {
     font-family: 'Baloo Paaji 2', cursive;
+    color: #ffdbc5;
+    text-align: center;
+}
+
+.card {
+    background-color: gray;
 }
