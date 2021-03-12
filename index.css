@@ -9,15 +9,19 @@ body {
     background-color: #303841;
 }
 
-p {
+p, div#aboutme p#funfacts {
     font-size: large;
     font-family: 'Baloo Paaji 2', cursive;
 }
 
-.navbar-brand, .nav-link, .about {
+.navbar-brand, .nav-link, .about, h5 {
     font-family: 'Lexend Zetta', sans-serif;
 }
 
 .card {
    background-color: #d3d6db;
+}
+
+h5 {
+    color: #be3144;
 }
