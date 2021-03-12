@@ -17,94 +17,133 @@
 <body>
     <!--Navbar layout-->
     <div class="container" style="font-family: Lucida Console;">
-        <div class="row-1">
-            <div class="col-xs-12 col-sm-12">
-                <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-                    <a class="navbar-brand" href="#">RHEANNE MARILYNN REYES</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <!--Navbar Links-->
-                    <section class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                          <li class="nav-item active">
-                            <a class="nav-link" href="./index.html">About</a>
-                          </li>
-                          <li class="nav-item active">
-                            <a class="nav-link" href="./portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-                          </li>
-                          <li class="nav-item active">
-                            <a class="nav-link" href="./contact.html">Contact</a>
-                          </li>
-                        </ul>
-                    </section>
-                </nav>
+      <div class="row-1">
+        <div class="col-xs-12 col-sm-12">
+          <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">RHEANNE MARILYNN REYES</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!--Navbar Links-->
+              <section class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">About</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="./portfolio.html">Work<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                  </li>
+                </ul>
+              </section>       
+          </nav>
                 
-                <!--Content for Portfolio Page-->
-                <div class="container card" style="margin-top: 2em; margin-bottom: 2em; width: 100%;">
-                  <br>
-                  <h1 class="portfolio">PORTFOLIO</h1>
-                  <hr>
-                  <div class="row">
-                  <div class="col-md-6" style="padding: 1em;">
-                    <img class="card-img-top" img src="./assets/virtualbar.png" alt="Getcha Fix Virtual Bar">
-                    <div class="card-body">
-                      <h5 class="card-title">Getcha Fix Virtual Bar</h5><hr>
-                      <p class="card-text">This is a virtual bar simulator that displays a Drink of the Moment card along with 5 classic recommended drinks from the developers. With a multiple choice trivia game where the user is asked 10 questions on numerous subjects.
-                         The user is told if they answered correctly/incorrectly then records and stores their score in local storage.</p>
-                    </div>
-                    <div class="card-body">
-                      <a href="https://github.com/joshrehanek/bar-trivia-simulator" class="app-link" target="_blank">GITHUB REPOSITORY</a><br>
-                      <a href="https://joshrehanek.github.io/bar-trivia-simulator/" class="app-link" target="_blank">DEPLOYED APPLICATION</a>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6" style="padding: 1em;">
-                    <img class="card-img-top" img src="./assets/horiseon.png" alt="Horiseon Website">
-                    <div class="card-body">
-                      <h5 class="card-title">Horiseon Website</h5><hr>
-                      <p class="card-text">Code Refactor of Horiseon Social Solution Services - Horiseon is a social solution service that advances business traffic through the internet. Horiseon uses search engine optimization (SEO) to improve the quantity and quality of website traffic from search engines.
-                        Additionally, Horiseon manages the business's online reputation and analytics for the consumers. With Horiseon, businesses can increase their search ranking and website traffic, with a decrease in advertising costs and work on the business's end.</p>
-                    </div>
-                    <div class="card-body">
-                      <a href="https://github.com/rheannemr/Horiseon-Website" class="app-link" target="_blank">GITHUB REPOSITORY</a><br>
-                      <a href="https://rheannemr.github.io/Horiseon-Website/" class="app-link" target="_blank">DEPLOYED APPLICATION</a>
-                    </div>
-                  </div>
-
-                <div class="row">
-                  <div class="col-md-6" style="padding: 1em;">
-                    <img class="card-img-top" img src="./assets/dailyplanner.png" alt="Work Day Scheduler">
-                    <div class="card-body">
-                      <h5 class="card-title">Work Day Scheduler</h5><hr>
-                      <p class="card-text">This is a simple daily planner application that displays the hours of a single work day (9AM - 5PM) with the user's current time (using moment.js library). The user is able to enter notes into the textarea field and when hitting the 'Save' button, their notes are then saved to local storage by the hour.
-                        The past hours turn gray, the present/current hour will appear red, and all future hours of the day will appear green.</p>
-                    </div>
-                    <div class="card-body">
-                      <a href="https://github.com/rheannemr/Daily-Schedule-Planner" class="app-link" target="_blank">GITHUB REPOSITORY</a><br>
-                      <a href="https://rheannemr.github.io/Daily-Schedule-Planner/" class="app-link" target="_blank">DEPLOYED APPLICATION</a>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6" style="padding: 1em;">
-                    <img class="card-img-top" img src="./assets/passwordgenerator.png" alt="Work Day Scheduler">
-                    <div class="card-body">
-                      <h5 class="card-title">Password Generator</h5><hr>
-                      <p class="card-text">This is an interactive application made with JavaScript. The user is able to generate a password between
-                        8 and 128 characters, with or without lowercase letters, uppercase letters, numbers, and special characters. After choosing 
-                        the password parameters, the application displays the password in the text box.
-                      </p>
-                    </div>
-                    <div class="card-body">
-                      <a href="https://github.com/rheannemr/Password-Generator" class="app-link" target="_blank">GITHUB REPOSITORY</a><br>
-                      <a href="https://rheannemr.github.io/Password-Generator/" class="app-link" target="_blank">DEPLOYED APPLICATION</a>
-                    </div>
-                  </div>
-                </div>
-
+    <!--Content for Portfolio Page-->
+    <div class="container card" style="margin-top: 2em; margin-bottom: 2em; width: 100%;">
+    <br>
+    <h1 class="portfolio">FEATURED</h1>
+    <hr>
+    <div class="row">
+      <section class="col-md-6" style="padding: 1em;">
+        <div class="photo">
+          <img class="card-img-top" img src="./assets/virtualbar.png" alt="Getcha Fix Virtual Bar">
+          <div class="overlay">
+            <div class="text">
+              <a href="https://github.com/joshrehanek/bar-trivia-simulator" class="app-link" target="_blank">GITHUB REPOSITORY</a><br>
+              <a href="https://joshrehanek.github.io/bar-trivia-simulator/" class="app-link" target="_blank">DEPLOYED APPLICATION</a>
             </div>
+          </div>
         </div>
+        <div class="card-body">
+          <h5 class="card-title">Getcha Fix Virtual Bar</h5><hr>
+            <p class="card-text">This is a virtual bar simulator that displays a Drink of the Moment card along with 5 classic recommended drinks from the developers. With a multiple choice trivia game where the user is asked 10 questions on numerous subjects.
+            The user is told if they answered correctly/incorrectly then records and stores their score in local storage.
+            </p><hr>
+        </div>
+      </section>
+
+      <section class="col-md-6" style="padding: 1em;">
+        <div class="photo">
+          <img class="card-img-top" img src="./assets/grocerylist.png" alt="Grocery List - Your Everyday Helper">
+          <div class="overlay">
+            <div class="text">
+              <a href="https://github.com/rheannemr/Grocery-list" class="app-link" target="_blank">GITHUB REPOSITORY</a><br>
+              <a href="https://the-grocery-list.herokuapp.com/" class="app-link" target="_blank">DEPLOYED APPLICATION</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Grocery List<br>Your Everyday Helper</h5><hr>
+            <p class="card-text">This is an interactive application that will help any user upon all their grocery excursions.
+            The user can simply log what they need to buy onto their list and once it's purchased, they will be able
+            to move it into their 'fridge'. The user has the ability to move it back and forth for future grocery trips,
+            and may also delete the item if it's no longer needed. On top of the grocery list, the user will be able to search
+            up recipe ideas based on the ingredients they have/need.
+            </p><hr>
+        </div>
+      </section>
+
+      <section class="col-md-6" style="padding: 1em;">
+        <div class="photo">
+          <img class="card-img-top" img src="./assets/dailyplanner.png" alt="Work Day Scheduler">
+          <div class="overlay">
+            <div class="text">
+              <a href="https://github.com/rheannemr/Daily-Schedule-Planner" class="app-link" target="_blank">GITHUB REPOSITORY</a><br>
+              <a href="https://rheannemr.github.io/Daily-Schedule-Planner/" class="app-link" target="_blank">DEPLOYED APPLICATION</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Work Day Scheduler</h5><hr>
+            <p class="card-text">This is a simple daily planner application that displays the hours of a single work day (9AM - 5PM) with the user's current time (using moment.js library). The user is able to enter notes into the textarea field and when hitting the 'Save' button, their notes are then saved to local storage by the hour.
+            The past hours turn gray, the present/current hour will appear red, and all future hours of the day will appear green.
+            </p><hr>
+        </div>
+      </section>
+
+      <section class="col-md-6" style="padding: 1em;">
+        <div class="photo">
+          <img class="card-img-top" img src="./assets/passwordgenerator.png" alt="Password Generator">
+          <div class="overlay">
+            <div class="text">
+              <a href="https://github.com/rheannemr/Password-Generator" class="app-link" target="_blank">GITHUB REPOSITORY</a><br>
+              <a href="https://rheannemr.github.io/Password-Generator/" class="app-link" target="_blank">DEPLOYED APPLICATION</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Password Generator</h5><hr>
+            <p class="card-text">This is an interactive application made with JavaScript. The user is able to generate a password between
+            8 and 128 characters, with or without lowercase letters, uppercase letters, numbers, and special characters. After choosing 
+            the password parameters, the application displays the password in the text box.
+            </p><hr>
+        </div>
+      </section>
+
+      <section class="col-md-6" style="padding: 1em;">
+        <div class="photo">
+          <img class="card-img-top" img src="./assets/horiseon.png" alt="Horiseon Website">
+          <div class="overlay">
+            <div class="text">
+              <a href="https://github.com/rheannemr/Horiseon-Website" class="app-link" target="_blank">GITHUB REPOSITORY</a><br>
+              <a href="https://rheannemr.github.io/Horiseon-Website/" class="app-link" target="_blank">DEPLOYED APPLICATION</a>
+            </div>
+          </div>
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">Horiseon Website</h5><hr>
+              <p class="card-text">Code Refactor of Horiseon Social Solution Services - Horiseon is a social solution service that advances business 
+                traffic through the internet. Horiseon uses search engine optimization (SEO) to improve the quantity and quality of website traffic from search engines.
+              Additionally, Horiseon manages the business's online reputation and analytics for the consumers. With Horiseon, businesses can increase 
+              their search ranking and website traffic, with a decrease in advertising costs and work on the business's end.
+              </p><hr>
+          </div>
+      </section>
     </div>
+  </div>
+</div>
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
