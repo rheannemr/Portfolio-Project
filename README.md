@@ -1,7 +1,9 @@
-I created a responsive site using Bootstrap to display on both large and small screens. This site is a basic portfolio piece including a short bio about myself, a portfolio page, and a page for people for people to contact me.
+This is a responsive portfolio made using HTML, CSS, and Bootstrap. The 'About Me' page includes photos of myself along with a short bio. The 'Portfolio' page features some of my work and group projects. The 'Contact Me' page has my personal contact information, as well as links to my downloadable resume, LinkedIn, and Github.
 
-![aboutme](https://user-images.githubusercontent.com/71292617/99177931-13f16f00-26c3-11eb-9bd7-4ca14a6fce69.png)
-![portfoliopage](https://user-images.githubusercontent.com/71292617/99177937-1d7ad700-26c3-11eb-97f7-c2ad1976c99a.png)
-![contactme](https://user-images.githubusercontent.com/71292617/99177935-1a7fe680-26c3-11eb-8d46-1b421ca2d538.png)
+![aboutme](https://user-images.githubusercontent.com/71292617/111214002-a0873d80-858e-11eb-9d55-80c00acae1e2.png)
+![portfoliopage](https://user-images.githubusercontent.com/71292617/111214130-cb719180-858e-11eb-883f-8871fe72d293.png)
+![contactme](https://user-images.githubusercontent.com/71292617/111214178-ddebcb00-858e-11eb-8a9e-ef419ce14c4b.png)
 
 Deployed Link: https://rheannemr.github.io/Portfolio-Project/
+
+Author: Rheanne Reyes
